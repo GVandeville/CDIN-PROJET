@@ -7,15 +7,16 @@ body {
     text-align: justify;
 }
 
+.titre1 {
+  font-size: 60px;
+  text-align: center;
+  color:  #FF0DCC;
+}
+.titre2 {
+  font-size: 40px;
+  color:  #FF0DCC;
+}
 .titre3 {
     font-size: 20px;
     color: #EB8915;
-}
-
-.titre2 {
-    font-size: 20px;
-}
-
-.titre1 {
-    font-size: 20px;
 }
