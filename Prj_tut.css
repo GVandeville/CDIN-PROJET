@@ -1,11 +1,21 @@
 #header {
     background-color : #000033;
     padding-bottom : 50px;
-    
-    
-<img
-    src="images/graphique-camembert.png" 
-    alt="[Facebook]"
-    height="100px" 
-    width="100px" 
-/>
+}
+
+body {
+    text-align: justify;
+}
+
+.titre3 {
+    font-size: 20px;
+    color: #EB8915;
+}
+
+.titre2 {
+    font-size: 20px;
+}
+
+.titre1 {
+    font-size: 20px;
+}
