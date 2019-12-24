@@ -3,6 +3,10 @@
     padding-bottom : 50px;
 }
 
+#bold{
+  font-weight: bold;
+}
+
 body {
     text-align: justify;
 }
