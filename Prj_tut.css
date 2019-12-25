@@ -14,7 +14,10 @@
   font-size: 20px;
   color: #FF0DCC;
 }
-
+#logo {
+  float: left;
+  width: 0px;
+}
 body {
     text-align: justify;
 }
