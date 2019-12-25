@@ -3,8 +3,13 @@
     padding-bottom : 50px;
 }
 
-#bold{
+#bold {
   font-weight: bold;
+}
+
+#Contact {
+  font-size: 20px;
+  color: #FF0DCC;
 }
 
 body {
@@ -22,5 +27,5 @@ body {
 }
 .titre3 {
     font-size: 20px;
-    color: #EB8915;
+    color: #FF0DCC;
 }
