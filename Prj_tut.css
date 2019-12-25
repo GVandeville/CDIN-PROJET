@@ -2,7 +2,10 @@
     background-color : #000033;
     padding-bottom : 50px;
 }
-
+@font-face {
+    font-family: 'DKDirrrty';
+    src: url('./DK Dirrrty.ttf') format('truetype');
+}
 #bold {
   font-weight: bold;
 }
@@ -20,6 +23,7 @@ body {
   font-size: 60px;
   text-align: center;
   color:  #FF0DCC;
+  font-family: DKDirrrty;
 }
 .titre2 {
   font-size: 40px;
