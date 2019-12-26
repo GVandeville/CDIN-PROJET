@@ -1,6 +1,5 @@
 #header {
     background-color : #000033;
-    padding-bottom : 50px;
 }
 @font-face {
     font-family: 'DKDirrrty';
@@ -22,6 +21,11 @@ body {
     text-align: justify;
 }
 
+.text-right {
+  font-size: 20px;
+  text-decoration: none; 
+  color: white;
+}
 .titre1 {
   font-size: 60px;
   text-align: center;
