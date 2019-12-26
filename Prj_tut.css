@@ -5,6 +5,17 @@
     font-family: 'DKDirrrty';
     src: url('./DK Dirrrty.ttf') format('truetype');
 }
+
+@font-face {
+  font-family: 'tw-cent-bold';
+  src: url('./tw-cen-mt-bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'HelveticaNeue-Thin';
+  src: url('./HelveticaNeue-Thin.otf') format('opentype');
+}
+
 #bold {
   font-weight: bold;
 }
@@ -19,18 +30,20 @@
 }
 body {
     text-align: justify;
+    font-family: HelveticaNeue-Thin
 }
 
 .text-right {
   font-size: 20px;
-  text-decoration: none; 
+  text-decoration: none;
   color: white;
 }
 .titre1 {
+  margin-top: 5px;
   font-size: 60px;
   text-align: center;
   color:  #FF0DCC;
-  font-family: DKDirrrty;
+
 }
 .titre2 {
   font-size: 40px;
