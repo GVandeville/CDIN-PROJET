@@ -1,0 +1,91 @@
+<!DOCTYPE HTML>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+		<link rel="stylesheet" href="Prj_tut.css">
+		<title>Formulaire</title>
+	</head>
+    <body>
+        <div class="container">
+            <form>
+              <fieldset>
+                <legend>Formulaire pour les propositions</legend>
+                
+                <div class="form-group">
+                  <label for="nom">Entrez votre nom et votre prenom *</label>
+                  <input type="text" class="form-control" id="nom" placeholder="Exemple : Durez Michel" required>
+                </div>
+                
+                <div class="form-group">
+                  <label for="email">Entrez votre mail *</label>
+                  <input type="email" class="form-control" id="email" placeholder="Exemple : Durez.Michel@gmail.com" required >
+                </div>
+
+                <div class="form-group">
+                    <label for="téléphone">Entrez votre numéro de téléphone *</label>
+                    <input type="tel" class="form-control" id="téléphone" placeholder="Exemple : 06########" required >
+                </div>
+
+                <div class="form-group">
+                    <label for="Entreprise">Entrez le nom de l'entreprise *</label>
+                    <input type="text" class="form-control" id="Entreprise" placeholder="Exemple : Orange " required >
+                </div>
+
+                  <div class="form-group">
+                    <label for="location"> Donnez la location de l'entreprise (Ville - Rue - Code Postal) *</label>
+                    <input type="text" class="form-control" id="Location" placeholder="Exemple : Lens - Rue de l'Université - 62307 " required >
+                </div>
+                
+                <div class="form-group">
+                  <label for="selection">À qui voulez-vous faire une proposition ? *</label>
+                  <select id="selection" class="form-control"required>
+                    <option value="">Vide</option>
+                    <optgroup label="Les étudiants">
+                      <option value="">Guillaume Vandeville</option>
+                      <option value="">Thomas Mol</option>
+                    </optgroup>
+                  </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="Temps"> De quand à quand ? (Date de début- Date de fin) *</label>
+                    <input type="text" class="form-control" id="Temps" placeholder="Exemple : 18 janvier - 7 mars " required>
+                </div>
+
+                <div class="form-group">
+                    <label for="Heures"> Combien d'heures l'étudiant est-il susceptible de travailler par semaine ? *</label>
+                    <input type="text" class="form-control" id="Heures" placeholder="Exemple : 27 heures " required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="location"> L'étudiant sera t-il rémunéré ? Si oui entrez la rémunération </label>
+                    <input type="text" class="form-control" id="Location" placeholder="Exemple : Lens - Rue de l'Université - 62307 ">
+                </div>
+
+                <div class="form-group">
+                  <label for="Sujet">Donnez la mission confiée a l'étudiant *</label>
+                  <textarea class="form-control" id="Sujet" rows="4" required placeholder=" Exemple : L'étudiant réalisera des tâches consistant à développer une application en utilisant principalement du java, ainsi que coder une page internet utilisant de l'html. Celui ci sera amené à travailler une équipe, et sera en conséquence amené à réaliser un plan de travail avec son équipe. "></textarea>
+                </div>
+
+                <div class="form-check">
+                    <label class="form-check-label">
+                      <input type="checkbox" class="form-check-input" required>
+                      Cochez pour vérifier que vous n'êtes pas un robot
+                    </label>
+                </div>
+                <button type="submit" class="btn btn-primary">Envoyer</button>
+              </fieldset>
+            </form>
+            <strong>*</strong> Ces onglets sont requis</a>
+
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+        <script src='https://www.google.com/recaptcha/api.js'></script>
+        <script src="validator.js"></script>
+        <script src="contact.js"></script>
+   </body>
+</html>
