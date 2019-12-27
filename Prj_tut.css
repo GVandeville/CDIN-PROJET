@@ -33,6 +33,9 @@
   background-color: #FCFCFC
 }
 
+#border {
+  border-radius: 20px;
+}
 body {
     text-align: justify;
     font-family: HelveticaNeue-Thin ;
@@ -58,6 +61,32 @@ body {
     color: #E71D73;
 }
 
+.rose {
+  font-size: 40px;
+  color: #E71D73;
+  font-weight: bold;
+}
+
+.violet{
+    font-size: 40px;
+    color: #A24392;
+    font-weight: bold;
+}
+
+.bleu {
+  font-size: 40px;
+  color: #00AF9E;
+  font-weight: bold;
+}
+
+.orange {
+  font-size: 40px;
+  color: #EB8915;
+  font-weight: bold;
+}
+
 footer{
   background-color: #E1E1E1
 }
+
+
