@@ -32,9 +32,14 @@
   font-size: 1rem;
   background-color: #FCFCFC
 }
-
+#Contact{
+  font-family;tw-cent-bold;
+}
 #border {
   border-radius: 20px;
+}
+#menu{
+  font-family: tw-cent-bold;
 }
 body {
     text-align: justify;
@@ -88,7 +93,7 @@ body {
 }
 
 footer{
-  background-color: #E1E1E1
+  margin-top: 15px;
+  margin-bottom: -15px;
+  background-color: #E1E1E1;
 }
-
-
