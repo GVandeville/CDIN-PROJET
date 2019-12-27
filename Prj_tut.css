@@ -50,15 +50,17 @@ body {
   margin-top: 5px;
   font-size: 4vw;
   color:  #E71D73;
-
+  font-family: tw-cent-bold
 }
 .titre2 {
   font-size: 2.5vw;
   color:  #E71D73;
+  font-family: tw-cent-bold
 }
 .titre3 {
     font-size: 20px;
     color: #E71D73;
+    font-family: tw-cent-bold
 }
 
 .rose {
