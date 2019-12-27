@@ -56,6 +56,26 @@ body {
     color: #E71D73;
 }
 
+.rose {
+  font-size: 40px;
+  color: #E71D73;
+  font-weight: bold;
+}
+
+.bleu {
+  font-size: 40px;
+  color: #00AF9E;
+  font-weight: bold;
+}
+
+.orange {
+  font-size: 40px;
+  color: #EB8915;
+  font-weight: bold;
+}
+
 footer{
   background-color: #E1E1E1
 }
+
+
