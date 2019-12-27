@@ -51,7 +51,7 @@ body {
   text-decoration: none;
   color: white;
 }
-#titre1 {
+.titre1 {
   margin-top: 5px;
   font-size: 4vw;
   color:  #E71D73;
