@@ -16,6 +16,10 @@
   src: url('./HelveticaNeue-Thin.otf') format('opentype');
 }
 
+#blannc {
+    opacity:0;
+}
+
 #bold {
   font-weight: bold;
 }
