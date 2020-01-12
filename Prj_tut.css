@@ -48,7 +48,7 @@ body {
     text-align: justify;
     font-family: HelveticaNeue-Thin ;
     background-image: url('./images/bg_right.jpg'),url('./images/bg_left.jpg');
-    background-position: left,right;
+    background-position: 0% 50%,100% 50%;
     background-repeat: no-repeat,no-repeat;
 }
 
