@@ -19,7 +19,9 @@
 #bold {
   font-weight: bold;
 }
-
+#mainBody{
+  background-color: white;
+}
 #Contact {
   font-size: 20px;
   color: #E71D73;
