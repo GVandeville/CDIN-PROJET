@@ -1,0 +1,94 @@
+#header {
+    background-color : #000033;
+}
+#bold {
+  font-weight: bold;
+}
+
+#blannc {
+  opacity:0;
+}
+
+@font-face {
+  font-family: 'DKDirrrty';
+  src: url('./DK Dirrrty.ttf') format('truetype');
+}
+
+@font-face {
+font-family: 'tw-cent-bold';
+src: url('./tw-cen-mt-bold.ttf') format('truetype');
+}
+
+@font-face {
+font-family: 'HelveticaNeue-Thin';
+src: url('./HelveticaNeue-Thin.otf') format('opentype');
+}
+
+#boldetcentre {
+    font-weight: bold;
+    text-align: center;
+    font-size: 60px;
+  }
+.rose {
+  font-size: 40px;
+  color: #E71D73;
+  font-weight: bold;
+}
+
+.violet {
+    font-size: 40px;
+    color: #A24392;
+    font-weight: bold;
+}
+
+.bleu {
+  font-size: 40px;
+  color: #00AF9E;
+  font-weight: bold;
+}
+
+.orange {
+  font-size: 40px;
+  color: #EB8915;
+  font-weight: bold;
+}
+
+#Contact {
+  font-size: 20px;
+  color: #E71D73;
+}
+
+body {
+    text-align: justify;
+    background-image: url("./images/Monde.png"); /* The image used */
+    height: 800px; /* You must set a specified height */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    opacity: 80%;
+
+}
+
+.ImageResponsive {
+  width: 10%;
+  height: auto;
+}
+
+
+.text-right {
+  font-size: 20px;
+  text-decoration: none; 
+  color: white;
+}
+.titre1 {
+  font-size: 40px;
+  text-align: center;
+  color:  #E71D73;
+}
+.titre2 {
+  font-size: 40px;
+  color:  #E71D73;
+}
+.titre3 {
+    font-size: 20px;
+    color: #E71D73;
+}
